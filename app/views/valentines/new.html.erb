@@ -1,14 +1,6 @@
 <div class='form'>
   <%= form_for @valentine do |f| %>
 
-<div class='errors'>
-  <% if @valentine.errors.any? %>
-    <% @valentine.errors.full_messages.each do |message| %>
-      <%= message %>
-    <% end %>
-  <% end %>
-</div>
-
   <div class='from'>
     <%= f.label "From" %>
   </div>

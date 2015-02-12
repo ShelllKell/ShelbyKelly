@@ -26,7 +26,7 @@ html {
 }
 
 h1 {
-  color:black;
+  color: black;
   font-family: cursive;
   font-size: 40pt;
 }
@@ -41,14 +41,6 @@ p {
 }
 
 .show {
-  width: 50%;
-  padding: 5rem;
-  font-family: cursive;
-  font-size: 16pt;
-  font-weight: bold;
-}
-
-.errors {
   width: 50%;
   padding: 5rem;
   font-family: cursive;
@@ -123,7 +115,11 @@ p {
 }
 
 
-input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
-cursor:pointer;
--webkit-border-radius: 5px;
-border-radius: 5px; }
+input[type=submit] {
+  padding:5px 15px;
+  background: hotpink;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
