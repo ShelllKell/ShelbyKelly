@@ -70,6 +70,7 @@ h1 {
 .from-text {
   padding-left: 25rem;
   padding-top: 2rem;
+  text-color: white;
 }
 
 .message {
@@ -92,9 +93,17 @@ h1 {
 #valentine_message {
   height: 76px;
   width: 182px;
+  background-image: url('glitter.jpg');
 }
 
 #valentine_from {
   height: 24px;
   width: 182px;
+  background-image: url('glitter.jpg');
 }
+
+
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
