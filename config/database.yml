@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: shelbykelly_development
+  database: valentines_development
 
 test:
   <<: *default
-  database: shelbykelly_test
+  database: valentines_test
 
 production:
   <<: *default
-  database: shelbykelly_production
+  database: valentines_production
