@@ -1,5 +1,9 @@
 class ValentinesController < ApplicationController
 
+  def index
+    @valentines = Valentine.all
+  end
+
   def new
     @valentine = Valentine.new
   end
