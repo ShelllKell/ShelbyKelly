@@ -1,7 +1,7 @@
 class ValentinesController < ApplicationController
 
   def index
-    @valentines = Valentine.all
+    @valentines = Valentine.all.reverse
   end
 
   def new
