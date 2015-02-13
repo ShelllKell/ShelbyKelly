@@ -2,6 +2,8 @@
   <% @valentines.each do |valentine| %>
     <ul>
       <li>
+        <%= valentine.from %>:
+        <br>
         <%= valentine.message %>
         <%= button_to "Bye Felecia", valentine_path(valentine),  method: :delete %>
       </li>
