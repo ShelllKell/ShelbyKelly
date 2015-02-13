@@ -18,6 +18,12 @@ class ValentinesController < ApplicationController
     end
   end
 
+  def destroy
+    @valentine = Valentine.find(params[:id])
+    @valentine.destroy
+    redirect_to valentines_path
+  end
+
   private
 
   def valentine_params

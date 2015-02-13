@@ -1,7 +1,10 @@
 <div class='show'>
   <% @valentines.each do |valentine| %>
     <ul>
-      <li><%= valentine.message %></li>
+      <li>
+        <%= valentine.message %>
+        <%= button_to "Bye Felecia", valentine_path(valentine),  method: :delete %>
+      </li>
     </ul>
   <% end %>
 </div>
