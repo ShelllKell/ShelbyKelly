@@ -9,7 +9,228 @@
 </head>
 <body>
 
-<%= yield %>
+  <html lang="en"><head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="../../favicon.ico">
 
+      <title>ShelbyKelly</title>
+
+      <!-- Bootstrap core CSS -->
+      <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+      <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+      <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+      <!-- Custom styles for this template -->
+      <link href="carousel.css" rel="stylesheet">
+    </head>
+  <!-- NAVBAR
+  ================================================== -->
+    <body>
+      <div class="navbar-wrapper">
+        <div class="container">
+
+          <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Shelby Kelly</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <!-- <li class="active"><a href="">Home</a></li> -->
+                  <li><a href="https://docs.google.com/document/d/1R0Mu03Ax0qJKQQz_3O8YMlxRnw3fxNi5UDUyzUrc__U/edit?usp=sharing" target="_blank">Resume</a></li>
+                  <!-- <li><a href="#contact">Contact</a></li> -->
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="https://twitter.com/ShelllKell" target="_blank">Twitter</a></li>
+                      <li><a href="https://github.com/ShelllKell" target="_blank">GitHub</a></li>
+                      <li><a href="http://linkedin.com/in/shelbykelly/" target="_blank">LinkedIn</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Youtube Raps</li>
+                      <li><a href="https://www.youtube.com/watch?v=vGbURNz_C3c" target="_blank">gSchool Rap</a></li>
+                      <li><a href="https://www.youtube.com/watch?v=_izwjulQ03w" target="_blank">Rocky Mountain Ruby Rap</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+
+
+      <!-- Carousel
+      ================================================== -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+
+              <img src="http://cdn.cultofmac.com/wp-content/uploads/2015/01/glitter001.jpg" alt="First slide">
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>I like creating.</h1>
+                <p></p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class='carousel-pictures'>
+              <img src="https://scontent-lga.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1402985_10151964211933586_1791015979_o.jpg" width="1450px" alt="Second slide">
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>I like people.</h1>
+                <p></p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class='carousel-pictures'>
+              <img src="https://c1.staticflickr.com/9/8445/7750540618_daf59b633e_z.jpg" alt="Third slide">
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>I like veggie trays.</h1>
+                <p></p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><!-- /.carousel -->
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+  <br>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-circle" src="http://messagenote.com/wp-content/uploads/2008/02/number-one-.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+            <h2>Inventive</h2>
+            <p>I enjoy working on projects where I can put in some of my own spice. I am a creative thinker when it comes to both executing projects and problem solving. I look at opportuniities from all sides to make sure I pick the best path of execution.</p>
+            <!-- <p><a class="btn btn-default" href="#" role="button">View details »</a></p> -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="img-circle" src="http://www.brianoconor.com/wp-content/uploads/2013/05/number2c.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+            <h2>Empathic</h2>
+            <p>One of my strongest suits is connecting with individuals. I help people with problems that range from personal to technical, but I understand that to successfully help I first have to listen.</p>
+            <!-- <p><a class="btn btn-default" href="#" role="button">View details »</a></p> -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="img-circle" src="http://2.bp.blogspot.com/-h9rZ3Tu09c8/TdWoTYapNRI/AAAAAAAAAb0/c6WqrGOXkCY/s640/Number+3.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+            <h2>Hungry</h2>
+            <p>I am always excited to get started on the next adventure. I rarely sit twiddling my thumbs, and am constantly looking for something to delve into that I can learn from. I am always trying to broaden my knowledge by learning new languages, frameworks, and best practices.</p>
+            <!-- <p><a class="btn btn-default" href="#" role="button">View details »</a></p> -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">I have experience in the startup scene <span class="text-muted"> and love it there.</span></h2>
+            <p class="lead">Right out of college I became a Boulder start-up's first employee, and moved on to running a team of five. After choosing programming as my career, I found my next home at Galvanize TA-ing for gSchool.  Between these two companies, I have found that I thrive on a little bit of chaos mixed into the daily plan, and am more than comfortable getting a task to complete with little to no direction.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="http://extras.mnginteractive.com/live/media/site36/2012/1019/20121019__20121021_K1_BZ21GALVANIZE1~p1.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="http://detroitcenter.umich.edu/sites/default/files/imagecache/normal/Girls-Who-Code-Web.png" data-holder-rendered="true">
+          </div>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">I like to stay busy, <span class="text-muted">so I volunteer.</span></h2>
+            <p class="lead">I am a volunteer for RailsBridge here in Denver and am planning on volunteering at RailsConf in Atlanta, April 2015. I love to help out wherever I can, and am passionate about the things I volunteer for. Getting and supporting women in tech, making programming accessible to kids, and disversifying the industry are all important topics I love to contribute to.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Want to hear a fun fact? <span class="text-muted">I rap.</span></h2>
+            <p class="lead">I've taken the traditional lightening talk and put a spin on it.  I am too comfortable speaking in front of people so I stepped it up a notch, and decided to rap about all things Ruby at school and at conferences.</p>
+          </div>
+          <div class="col-md-5">
+
+            <!-- <img class="featurette-image img-responsive"> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_izwjulQ03w" frameborder="0" allowfullscreen></iframe>
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+
+        <!-- FOOTER -->
+        <footer>
+          <p class="pull-right"><a href="#">Back to top</a></p>
+          <!-- <p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p> -->
+        </footer>
+
+      </div><!-- /.container -->
+
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="../../dist/js/bootstrap.min.js"></script>
+      <script src="../../assets/js/docs.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+  <div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1426004381496">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1426004381496" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="23" style="font-weight:bold;font-size:23pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">500x500</text></svg></body></html>
 </body>
 </html>
