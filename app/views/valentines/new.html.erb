@@ -1,27 +1,29 @@
-<div class='form'>
-  <%= form_for @valentine do |f| %>
+<div class='hearts'>
+  <div class='form'>
+    <%= form_for @valentine do |f| %>
 
-  <div class='from'>
-    <%= f.label "From" %>
-  </div>
+    <div class='from'>
+      <%= f.label "From" %>
+    </div>
 
-  <div class='from-text'>
-    <%= f.text_field :from %>
-  </div>
+    <div class='from-text'>
+      <%= f.text_field :from %>
+    </div>
 
-  <div class='message'>
-    <%= f.label "Message" %>
-  </div>
+    <div class='message'>
+      <%= f.label "Message" %>
+    </div>
 
-  <div class='message-text'>
-    <%= f.text_area :message, height: "76", width: "182" %>
-  </div>
+    <div class='message-text'>
+      <%= f.text_area :message, height: "76", width: "182" %>
+    </div>
 
     <br>
 
-  <div class='button'>
-    <%= f.submit "Send the Love" %>
-  </div>
+    <div class='vbutton'>
+      <%= f.submit "Send the Love" %>
+    </div>
 
-  <% end %>
+    <% end %>
+  </div>
 </div>
